@@ -17,7 +17,7 @@ $(function() {
     var t = $(this);
     var code = t.text();
     t.html("&#x" + code + ";");
-    t.attr("href", "http://unicode-table.com/en/" + code + "/");
+    t.attr("href", "https://symbl.cc/en/" + code + "/");
     t.attr("target", "_blank");
   });
 });
